@@ -1,4 +1,8 @@
 {
   "item.rso.bismuth" : "Bismuth",
-  "item.rso.raw_bismuth" : "Raw Bismuth"
+  "item.rso.raw_bismuth" : "Raw Bismuth",
+  "block.rso.bismuth_block" : "Bismuth Block",
+  "block.rso.bismuth_ore" : "Bismuth Ore"
+
+
 }

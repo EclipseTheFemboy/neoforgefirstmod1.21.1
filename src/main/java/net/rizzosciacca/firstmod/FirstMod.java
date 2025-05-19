@@ -77,6 +77,10 @@ public class FirstMod { //mainclass
             event.accept(ModBlocks.BISMUTH_BLOCK);
             event.accept(ModBlocks.BISMUTH_ORE);
         }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(ModBlocks.TESTBLOCK);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

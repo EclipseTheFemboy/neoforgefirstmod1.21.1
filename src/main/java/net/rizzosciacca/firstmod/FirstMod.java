@@ -1,6 +1,7 @@
 package net.rizzosciacca.firstmod;
 
 import net.rizzosciacca.firstmod.block.ModBlocks;
+import net.rizzosciacca.firstmod.item.ModCreativeModeTabs;
 import net.rizzosciacca.firstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -52,8 +53,11 @@ public class FirstMod { //mainclass
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

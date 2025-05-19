@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rso.bismuth_block",
+    "rso.bismuth_ore",
+    "rso.bismuth_deepslate_ore"
+
+  ]
+}

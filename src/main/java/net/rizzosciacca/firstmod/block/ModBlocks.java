@@ -34,6 +34,14 @@ public class ModBlocks {
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> BISMUTH_DEEPSLATE_ORE = registerBlock("bismuth_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(30, 50),
+                    BlockBehaviour.Properties.of()
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.DEEPSLATE)));
+
+
     public static final DeferredBlock<Block> TESTBLOCK = registerBlock("dead_eye",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(0.5f)

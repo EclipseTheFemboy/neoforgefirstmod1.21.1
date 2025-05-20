@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model" : "rso:block/magic_block"
+    }
+  }
+}

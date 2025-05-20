@@ -1,10 +1,15 @@
 {
   "item.rso.bismuth" : "Bismuth",
   "item.rso.raw_bismuth" : "Raw Bismuth",
+  "item.rso.chisel" : "Chisel",
+  "item.rso.radish" : "Radish",
+
   "block.rso.bismuth_block" : "Bismuth Block",
   "block.rso.bismuth_ore" : "Bismuth Ore",
   "block.rso.dead_eye" : "Dead Eye Block",
   "block.rso.bismuth_deepslate_ore" : "Bismuth Deepslate Ore",
+  "block.rso.magic_block" : "Magic Block",
+
   "creativetab.rso.modded_items" : "Modded Items",
   "creativetab.rso.modded_blocks" : "Modded Blocks"
 

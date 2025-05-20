@@ -12,6 +12,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.rizzosciacca.firstmod.FirstMod;
+import net.rizzosciacca.firstmod.block.custom.MagicBlock;
 import net.rizzosciacca.firstmod.item.ModItems;
 import org.apache.commons.compress.compressors.lz77support.LZ77Compressor;
 
@@ -40,6 +41,13 @@ public class ModBlocks {
                             .strength(4f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.DEEPSLATE)));
+
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength(0.5f)
+                    .sound(SoundType.LARGE_AMETHYST_BUD)
+                    .requiresCorrectToolForDrops()));
 
 
     public static final DeferredBlock<Block> TESTBLOCK = registerBlock("dead_eye",

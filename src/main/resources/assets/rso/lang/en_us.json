@@ -3,6 +3,13 @@
   "item.rso.raw_bismuth" : "Raw Bismuth",
   "item.rso.chisel" : "Chisel",
   "item.rso.radish" : "Radish",
+  "item.rso.frostfire_ice" : "Frostfire Ice",
+  "item.rso.starlight_ashes" : "Starlight Ashes",
+
+  "tooltip.rso.magic_block.tooltip": "This Block is very §cM§r§1a§r§2g§r§3i§r§4c§r§5a§r§6l§r",
+  "tooltip.rso.chisel.shift_down" : "This item can chisel Blocks into different variants of bricks",
+  "tooltip.rso.chisel" : "Press §eShift§r for more information",
+
 
   "block.rso.bismuth_block" : "Bismuth Block",
   "block.rso.bismuth_ore" : "Bismuth Ore",

@@ -26,6 +26,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.CHISEL);
                         output.accept(ModItems.RADISH);
+
+                        output.accept(ModItems.FROSTFIRE_ICE);
+                        output.accept(ModItems.STARLIGHT_ASHES);
     }).build());
 
     public static final Supplier<CreativeModeTab> MODDED_BLOCK_TAB = CREATIVE_MODE_TAB.register("modded_blocks_tab",

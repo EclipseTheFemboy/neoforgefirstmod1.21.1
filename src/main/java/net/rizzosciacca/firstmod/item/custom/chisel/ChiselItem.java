@@ -12,17 +12,7 @@ import java.util.Map;
 public class ChiselItem extends Item {
     private static final Map<Block, Block> CHISEL_MAP =
             Map.of(
-                    Blocks.STONE, Blocks.STONE_BRICKS,
-                    Blocks.STONE_BRICKS, Blocks.STONE_BRICK_STAIRS,
-                    Blocks.STONE_BRICK_STAIRS, Blocks.STONE_BRICK_SLAB,
-                    Blocks.END_STONE, Blocks.END_STONE_BRICKS,
-                    Blocks.END_STONE_BRICKS, Blocks.END_STONE_BRICK_STAIRS,
-                    Blocks.END_STONE_BRICK_STAIRS, Blocks.END_STONE_BRICK_STAIRS,Blocks.END_STONE_BRICK_SLAB,
-                    Blocks.DEEPSLATE, Blocks.DEEPSLATE_BRICKS,
-                    Blocks.DEEPSLATE_BRICKS, Blocks.DEEPSLATE_BRICK_STAIRS,
-                    Blocks.DEEPSLATE_BRICK_STAIRS, Blocks.DEEPSLATE_BRICK_SLAB,
-
-            )
+            );
     public ChiselItem(Properties properties) {
         super(properties);
     }
@@ -30,7 +20,7 @@ public class ChiselItem extends Item {
     @Override
     public InteractionResult useOn(UseOnContext context) {
         Level level = context.getLevel();
-        Block clickedBlock = level.getBlockState(context.getClickedPos()).getBlock()
+        Block clickedBlock = level.getBlockState(context.getClickedPos()).getBlock();
 
             if (CHISEL_MAP.containsKey(clickedBlock)){
                 if (!level.isClientSide()) { // only on server side
